@@ -1,0 +1,17 @@
+h2 {
+  color: rgb(168, 168, 168);
+  font-weight: 400;
+  margin: 20px;
+}
+
+.contenedor-section {
+  display: flex;
+}
+
+@media all and (max-width: 375px) {
+  .contenedor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}/*# sourceMappingURL=films.component.css.map */

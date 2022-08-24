@@ -1,0 +1,45 @@
+@import "../../font";
+
+h2 {
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+    margin: 20px;
+    font-family: play;
+    font-size: 2rem;
+}
+.contenedor-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    flex-wrap: wrap;
+
+}
+.contenedor-films {
+    display: flex;
+    flex-direction: row;   
+}
+h1 {
+    font-size: 23rem;
+    color: rgb(0, 0, 0);
+    text-shadow: white 0px 0px 30px;
+}
+img {
+    width: 200px;
+    position: relative;
+    right: 35px;
+}
+@media only screen and (min-width:  600px) {
+     .contenedor-films-mobil {
+         display: none;
+     }     
+}
+@media only screen and (max-width:  600px) {
+    .contenedor-films-mobil {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-films {
+        display: none;
+    }
+}
+

@@ -1,0 +1,25 @@
+.logo-netflix {
+  width: 60px;
+}
+
+h4 {
+  color: white;
+  font-size: 1rem;
+  margin: 0 5px;
+}
+
+.container-buscador {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 10px 15px 5px;
+}
+
+.logo-zoom {
+  width: 1rem;
+}/*# sourceMappingURL=nav.component.css.map */

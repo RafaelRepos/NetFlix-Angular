@@ -1,0 +1,24 @@
+@import "../../font";
+
+.logo-netflix {
+    width: 100px;
+}
+h4 {
+    color: white;
+    font-size: 2rem;
+    margin: 0 5px;
+    font-family: play;
+}
+.container-buscador {
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px 15px 5px;
+}
+.logo-zoom {
+    width: 2rem;
+}

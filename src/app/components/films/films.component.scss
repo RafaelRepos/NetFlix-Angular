@@ -1,0 +1,31 @@
+@import "../../font";
+h2 {
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+    margin: 20px;
+    font-family: play;
+    font-size: 2rem;
+}
+.contenedor-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.films-container {
+    display: flex;
+}
+img {
+    width: auto;
+    transition: transform 1s ;
+}
+img:hover {
+    transform: scale(1.2);
+    box-shadow: red 0px 0px 50px;
+}
+@media all and (max-width: 375px) {
+    .contenedor-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+}

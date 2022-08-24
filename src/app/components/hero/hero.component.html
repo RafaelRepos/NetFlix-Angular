@@ -1,0 +1,9 @@
+<h2>{{films.section}}</h2>
+<div class="contenedor-top">
+    <div class="contenedor-films" *ngFor="let item of films['films']; index as i" >
+        <h1>{{ i + 1 }}<img src="{{item.image}}" alt="{{item.title}}" /></h1>
+    </div>
+</div>
+<div class="contenedor-films-mobil" *ngFor="let item of films['films']; index as i" >
+    <h1 *ngIf="i < 3">{{ i + 1 }}<img src="{{item.image}}" alt="{{item.title}}" /></h1>
+</div>
